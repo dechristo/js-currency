@@ -1,4 +1,4 @@
-#CurrencyJS - A lightweight currency module
+# CurrencyJS - A lightweight currency module
 
 ## 1. Instructions
 
