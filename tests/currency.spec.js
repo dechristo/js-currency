@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const CurrencyInfo = require('../currency');
+const CurrencyInfo = require('../src/currency');
 
 describe("CurrencyInfo",() => {
    describe("getCurrencyPattern()", () => {

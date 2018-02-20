@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         jshint: {
-            all: ['Gruntfile.js', 'currency.js', 'tests/currency.js'],
+            all: ['Gruntfile.js', 'src/currency.js', 'tests/currency.js'],
             options: {
                 esversion: 6
             }
