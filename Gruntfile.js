@@ -1,20 +1,14 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         jshint: {
-            all: ['Gruntfile.js', 'currency.js', 'tests/currency.js']
-        },
-
-        uglify: {
-            build: {
-                files: {
-                    'release/currency.min.js': ['currency.js']
-                }
+            all: ['Gruntfile.js', 'currency.js', 'tests/currency.js'],
+            options: {
+                esversion: 6
             }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('default', ['jshint','uglify']);
+    grunt.registerTask('default', ['jshint']);
 };
