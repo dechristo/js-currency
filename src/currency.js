@@ -84,7 +84,7 @@ const getAvailableCurrencies = () => {
     let available = [];
 
     available = Object.keys(currencies);
-    return available
+    return available;
 };
 
 module.exports = {
