@@ -41,6 +41,12 @@
         decimalSeparator: '.'
     },
 
+    fr_fr: {
+          country: 'France',
+          symbol: '€',
+          decimalSeparator: '.'
+    },
+
     it_it: {
         country: 'Italia',
         symbol: '€',
@@ -50,12 +56,6 @@
     ja: {
         country: 'Japan',
         symbol: '¥',
-        decimalSeparator: '.'
-    },
-
-    fr_fr: {
-        country: 'France',
-        symbol: '€',
         decimalSeparator: '.'
     }
 };
@@ -73,13 +73,21 @@ const getCurrencyPattern = (location) => {
 };
 
 const isLocationValid = (location) => {
-    if (location == null ||
+    if (!location ||
         location.length > 5 ||
         location.length === 0)
          return false;
      return true;
 };
 
+const getAvailableCurrencies = () => {
+    let available = [];
+
+    available = Object.keys(currencies);
+    return available
+};
+
 module.exports = {
-    getCurrencyPattern: getCurrencyPattern
+    getCurrencyPattern: getCurrencyPattern,
+    getAvailableCurrencies: getAvailableCurrencies
 };

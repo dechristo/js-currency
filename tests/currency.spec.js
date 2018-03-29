@@ -108,4 +108,23 @@ describe("CurrencyInfo",() => {
            assert.equal(ci.decimalSeparator,"." );
        });
    });
+
+   describe('getAvailableCurrencies()', () => {
+       it('should return an array with available currencies', () => {
+           let available = CurrencyInfo.getAvailableCurrencies();
+           assert.isArray(available);
+           assert.deepEqual(available, [
+               'de_de',
+               'de_ch',
+               'en_au',
+               'en_ca',
+               'en_uk',
+               'en_us',
+               'es_es',
+               'fr_fr',
+               'it_it',
+               'ja',
+           ])
+       });
+   });
 });
