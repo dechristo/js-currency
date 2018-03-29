@@ -1,11 +1,8 @@
-# CurrencyJS - A lightweight currency module
+# CurrencyInfo - A lightweight currency formats information module
 
 ## 1. Instructions
 
-   Clonse the repository, install its dependencies with `npm install` and then just add to the file where you want to use **CurrencyJS**:
-
-    const CurrencyInfo = require('../src/currency');
-
+Install it with `npm install currency-info --save`
 
 ## 2. Tests
 To run the tests type `mocha tests`. The output should looks like:
