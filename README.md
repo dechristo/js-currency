@@ -1,4 +1,7 @@
-# CurrencyInfo - A lightweight currency formats information module
+# CurrencyInfo [![Build Status](https://travis-ci.org/dudu84/currency-info.svg?branch=master)](https://travis-ci.org/dudu84/currency-info)
+
+A lightweight currency formats information module
+
 
 ## 1. Instructions
 
