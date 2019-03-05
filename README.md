@@ -1,4 +1,4 @@
-# CurrencyInfo [![Build Status](https://travis-ci.org/dudu84/currency-info.svg?branch=master)](https://travis-ci.org/dudu84/currency-info) [![Known Vulnerabilities](https://snyk.io/test/github/dechristo/js-currency/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dechristo/js-currency?targetFile=package.json)
+# CurrencyInfo [![Build Status](https://travis-ci.org/dudu84/currency-info.svg?branch=master)](https://travis-ci.org/dudu84/currency-info) [![Known Vulnerabilities](https://snyk.io/test/github/dechristo/js-currency/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dechristo/js-currency?targetFile=package.json) [![npm version](https://badge.fury.io/js/currency-info.svg)](https://badge.fury.io/js/currency-info)
 
 
 A lightweight currency formats information module
