@@ -1,6 +1,6 @@
 {
   "name": "currency-info",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Provides specific information for currencies.",
   "main": "currency.js",
   "scripts": {
