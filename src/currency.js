@@ -1,4 +1,4 @@
-  const currencies = {
+const currencies = {
     de_de: {
         country: 'Deutschland',
         symbol: '€',
@@ -42,9 +42,9 @@
     },
 
     fr_fr: {
-          country: 'France',
-          symbol: '€',
-          decimalSeparator: '.'
+        country: 'France',
+        symbol: '€',
+        decimalSeparator: '.'
     },
 
     it_it: {
@@ -76,8 +76,8 @@ const isLocationValid = (location) => {
     if (!location ||
         location.length > 5 ||
         location.length === 0)
-         return false;
-     return true;
+        return false;
+    return true;
 };
 
 const getAvailableCurrencies = () => {
